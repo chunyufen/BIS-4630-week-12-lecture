@@ -1,0 +1,1781 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BIS4630 Corporate Compliance &amp; Fraud Analytics</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Hayson Tse, PhD (HK)" />
+    <meta name="date" content="2018-01-24" />
+    <link href="libs/remark-css/example.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# BIS4630 Corporate Compliance &amp; Fraud Analytics
+## Week 12 Cybercrime &amp; Information Security (Supplementary Materials)
+### Hayson Tse, PhD (HK)
+### 24 January 2018
+
+---
+
+
+
+
+# Help
+
+* Pink means `I am a link; please click me.`  
+
+* Click a slide and press `H` for help  
+
+???
+
+This is notes.
+
+---
+# Contact info
+
+* Personal email
+
+    + [H.Tse](H.Tse@mdx.ac.uk)  
+
+    + [hayson.tse](hayson.tse@teacher.hkuspace.hku.hk)  
+
+* Course twitter
+
+    + [@bis4630](https://twitter.com/bis4630)  
+
+---
+
+# Copyright
+
+[This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Licence.](http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
+
+&lt;img src="by-nc-sa.png" height="100pt" /&gt;
+
+---
+
+# Table of contents
+
+* Course administration
+
+* * Information security: OECD
+
+* FSA Countering Financial Crime Risks in Information Security 2004
+
+* FSA Financial Crime and Intelligence Division
+
+* FCA Business Plan 2016/17
+
+* Information Commissioner's Office
+
+* Data Security Cases
+
+* Cybercrime cases
+
+* HM Government National Cyber Security Strategy 2016 - 2021
+
+* National Cyber Security Centre
+
+* Summary
+
+---
+
+name: course-admin
+
+class: inverse, center, middle
+
+# Course administration
+
+---
+
+# Classroom Conduct
+
+* [HKU SPACE Handbook](http://bit.ly/2ds6czb)
+
+    + Unauthorised reservation of seats is not permitted.
+
+    + Eating or drinking is not allowed.
+
+    + All mobile phones and pagers are to be turned off.
+
+    + Smoking is prohibited at all HKU SPACE learning centres and the University campus.
+
+    + No video / audio recording is allowed, except with the permission of the Programme Director / Manager, and is subject to any conditions stipulated when such permission is granted.
+
+    + Personal belongings should not be left unattended.
+
+---
+
+# MSc Electronic Security and Digital Forensics Degree
+
+&gt; "This course will focus on IT law, professional and ethical issues, criminal law, theories of crime as well as looking at the legal system more generally. You'll also focus on security regulations, contingency planning and risk management as well as intellectual property law, privacy and data protection law." - [Course homepage](http://bit.ly/2e18OVE)
+
+---
+
+# Compulsory modules that you are exempted
+
+* BIS 4620 Digital Investigation and Evidence Management (30 Credits)
+
+* BIS 4610 Information Security Management (30 Credits)
+
+---
+
+# Compulsory modules for you
+
+* BIS 4600 Legal and Professional Aspects of Digital Forensics (30 Credits)
+
+* BIS4630 Corporate Compliance and Financial Crime Prevention (30 Credits) 
+
+* BIS 4992 Postgraduate Computing Project (60 Credits)
+
+---
+
+# Study hours outside class contact
+
+&gt; "The study hours for each credit point is 10 hours. For a 30-credit module this equates to 300 hours. Therefore, if a module has time-tabled activities i.e. lecture/seminar/lab, of 3 hours per week for a 24-week period (total of 72 hours), then the out-of-class study commitment expected of students is 228 hours in total." - Course Handbook.
+
+* Practical meaning: 300 hours = **2.5 hours per day** x *5 days* x 24 learning weeks (Note: only 18 learning weeks for Hong Kong)
+
+---
+
+# Master's degree in UK
+
+&gt; "[A] master's [degree] is hard work and requires a lot of commitment. It has to be something you actively want to do . . . Postgraduate study is *much more independent* than undergraduate study, so, on a practical level, it is important to be aware that you may be *working by yourself for much of the time*." - [Taking the plunge into the master's world (The Guardian, 2009)](http://bit.ly/2fBScEa)
+
+---
+
+# Teaching Plan IMPORTANT
+
+* The Hong Kong teaching schedule is set out below. It supersedes the UK model explained in the Module Handbook.
+
+* The Hong Kong schedule consists of a 18-week schedule decided by HKUSPACE. The UK course consists of a 24-week schedule.
+
+* The 2 dates for coursework remain the same: 7 March 2018 and 14 March 2018 (both London time)
+
+---
+
+# Week 12 - 13: 24 &amp; 31.i.2018
+
+* Cybercrime
+
+    + The vulnerabilities of electronic crime
+  
+    + Electronic means to commit fraud and financial crime
+  
+    + Malicious damage and disruption
+  
+    + Managing breaches - planned response Policy and strategic measures
+  
+    + Electronic payment systems
+  
+    + Information security techniques
+
+---
+
+# Week 17: 28.ii.2018
+
+* Revision, Practise Presentations
+
+    + 7 March 2018 is the deadline to send Coursework A, B and C to Middlesex via Middlesex Turnitin. There is no lecture on 7 March 2018.
+  
+    + Revision
+  
+    + Practise presentations
+  
+    + Examination preparation and practice
+
+---
+
+# Week 18: 14.iii.2018
+
+* Group Presentations &amp; Examination preparation
+
+    + Summative group presentation
+  
+    + Revision
+  
+    + Examination paper practice
+  
+* Assessment Formative assessment
+
+    + Monitor student learning to improve their learning
+  
+    + Provide ongoing feedback to teachers to improve teaching
+  
+* Summative assessment
+
+    + Evaluate student learning at the end of an instructional unit by comparing it against some standard or benchmark
+
+---
+
+# Important dates
+
+* 11 October 2017 - 6 December 2017, both dates inclusive
+
+    + You are recommended to research for Coursework Section A to C.
+  
+* 24 January 2018
+
+    + You are recommended to complete a first draft copy of Coursework Section A.
+  
+* 31 January 2018
+
+    + You are recommended to complete a second draft of Coursework Section A and continue to review, edit and amend until you have a 'camera-ready' piece of soft copy before 7 March 2018.
+
+---
+
+# Important dates
+
+* 7 February 2018
+
+    + You are recommended to complete a first draft of Coursework Section B.
+  
+* 14 February 2018
+
+    + You are recommended to complete a second draft of Coursework Section B and continue to review, edit and amend until you have a 'camera-ready' piece of soft copy before 7 March 2018.
+  
+* 21 February 2018
+
+    + You are recommended to complete a first draft of Coursework Section C.
+
+---
+
+# Important dates
+
+* 28 February 2018
+
+    + You are recommended to complete a second draft of Coursework Section C and continue to review, edit and amend until you have a 'camera-ready' piece of soft copy before 7 March 2018.
+
+---
+
+# Important dates
+
+* 7 March 2018
+
+    + Deadline for Summative Submission of Coursework Section A, B and C, each with its covering page via the supplied Turnitin link in the Middlesex University UniHub module page to Middlesex.
+  
+    + Any other means of submission, even to me or to HKUSPACE, means no submission.
+
+---
+
+# Important dates
+
+* 14 March 2018
+
+    + Group presentation for Coursework Section C.
+
+---
+
+name: OECE-data
+
+class: inverse, center, middle
+
+# Information security: OECD
+
+---
+
+# Guidelines (1980, 2013)
+
+* [OECD Guidelines on the Protection of Privacy and Transborder Flows of Personal Data](http://bit.ly/1Ot27bJ) (developed in late 1970s and adopted on 23 September 1980)
+
+* [OECD Privacy Framework (2013)](http://bit.ly/1eFAf3Y)
+
+* Chapter 1: Revised Guidelines on the Protection of Privacy and Transborder Flows of Personal Data
+
+    + 8 Basic Principles of National Application
+
+* Further discussion of the principles is in the accompanying [Explanatory Memorandum](http://bit.ly/2ivIpAx)
+
+---
+
+# 8 Principles
+
+* Collection Limitation Principle
+
+&gt; There should be limits to the collection of personal data and any such data should be obtained by lawful and fair means and, where appropriate, with the knowledge or consent of the data subject.
+
+* Data Quality Principle
+
+&gt; Personal data should be relevant to the purposes for which they are to be used, and, to the extent necessary for those purposes, should be accurate, complete and kept up-to-date.
+---
+
+# 8 Principles
+
+* Purpose Specification Principle
+
+&gt; The purposes for which personal data are collected should be specified not later than at the time of data
+collection and the subsequent use limited to the fulfilment of those purposes or such others as are not incompatible with those purposes and as are specified on each occasion of change of purpose.
+
+* Use Limitation Principle
+
+&gt; Personal data should not be disclosed, made available or otherwise used for purposes other than those specified in
+accordance with [Purpose Specification Principle] except:
+
+&gt; a) with the consent of the data subject; or
+
+&gt; b) by the authority of law.
+---
+
+# 8 Principles
+
+* Security Safeguards Principle
+
+&gt; Personal data should be protected by reasonable security safeguards against such risks as loss or
+unauthorised access, destruction, use, modification or disclosure of data.
+
+* Openness Principle
+
+&gt; There should be a general policy of openness about developments, practices and policies with respect to personal data.
+Means should be readily available of establishing the existence and nature of personal data, and the main purposes of their use, as well as the identity and usual residence of the data controller.
+
+---
+
+# 8 Principles
+
+* Individual Participation Principle
+
+&gt; Individuals should have the right:
+
+&gt; (a) to obtain from a data controller, or otherwise, confirmation of     whether or not the data controller has data relating to them;
+
+&gt; (b) to have communicated to them, data relating to them (i) within a reasonable time; (ii) at a charge, if any, that is not excessive; (iii) in a reasonable manner; and (iv) in a form that is readily intelligible to them;
+
+&gt; (c) to be given reasons if a request made under subparagraphs (a) and (b) is denied, and to be able to challenge such denial; and
+
+&gt; (d) to challenge data relating to them and, if the challenge is successful to have the data erased, rectified, completed or amended.
+
+---
+
+# 8 Principles
+
+* Accountability Principle
+
+&gt; A data controller should be accountable for complying with measures which give effect to the principles stated
+above.
+
+---
+
+name: FSA2004
+
+class: inverse, center, middle
+
+# FSA 2004
+
+---
+
+# [Countering Financial Crime Risks in Information Security (Nov 2004)](http://bit.ly/2jPYh2H)
+
+
+* Trends of threats to Information Security
+
+    + Phishing and identity theft
+
+    + Phishing Trojans
+
+* Information Security Framework
+
+* Examples
+
+---
+
+# Information Security Framework
+
+&gt; "Having Information Security governance mechanisms in place e.g. defined roles and responsibilities for both business and IT in terms of committees, steering groups and management;"
+
+&gt; "Forming high-level Information Security strategies and policies, as well as detailed underlying procedures, standards and guidelines covering e.g. network, operating systems, databases etc;"
+
+&gt; "Deploying policies and procedures into actions e.g. user administration, network and operating system management and education;"
+---
+
+# Information Security Framework
+
+&gt; "Managing monitoring of events through methods such as audit reports, or managing information to determine how well Information Security policies are implemented and procedures followed to provide assurance over the process; and "
+
+&gt; "Risk management over Information Security risks to include risk identification, assessment, mitigation and monitoring."
+
+---
+
+# Examples
+
+* Events
+
+&gt; Remedies
+
+* "A firm had not invested in developing a Business Continuity plan. The business would have had difficulty in continuing if its premises were damaged."
+
+&gt; "The FSA Systems and Controls Handbook states in 3.2.19G that:
+    
+&gt; "A firm should have in place appropriate arrangements to ensure it can continue to function and meet its regulatory obligations in the event of an unforeseen interruption. These arrangements should be regularly tested to ensure their effectiveness"."
+
+---
+
+# Examples
+
+* "Denial of Service"
+
+&gt; "Regular vulnerability tests and threat assessments should identify system weaknesses and the probability that a firm may be targeted in a DoS attack."
+
+---
+
+# Examples
+
+* "An employee made a link between his firm's laptop and his home PC using a crossover cable to transfer files. As the firm's laptop was only infrequently connected to the corporate network it didn't have the latest anti-virus update and therefore when connected to the home PC, it picked up a virus. When the employee reconnected the laptop to the firm's network the virus spread before the latest update could be applied to the laptop. This caused system downtime."
+
+&gt; "Even with traditional anti-virus precautions, a firm's network remains vulnerable to viruses introduced through novel, alternative routes. Although timely automated distribution of anti-virus software will help protect a firm's infrastructure, it needs to reinforce user anti-virus education."
+    
+---
+
+# Examples
+
+* "A member of the IT Department at one firm who observed a contractor about to connect a USB storage device to one of the firm's networked computers. He stopped the contractor, informed her this was not allowed and asked her not to bring the USB storage device onto the premises."
+
+&gt; "Firms need to be alert to the Information Security risks introduced through the use of hand held devices. If hand held device use is permitted, firms need to consider educating their users in how to use devices safely and updating their Information Security policy accordingly."
+
+---
+
+# Examples
+
+* "A particular firm did not have a policy on IM (Instant Messaging), or any control in place to prevent the installation of the application on the firm's systems. This firm stated that the unauthorised use of IM was a big problem outside of the UK where IM use formed up to 50% of the cyber investigations carried out. The only firm visited where the use of IM was permitted had limited the use to a non-public IM for a restricted group of staff and had incorporated additional controls to enforce message non-repudiation."
+
+&gt; "Firms need to understand the Information Security risks associated with the use of public IM versus proprietary IM as well as being mindful of the FSA's Systems and Controls Handbook rule 3.2.20 regarding the ability to retain adequate records of matters and dealings that are subject to the requirements and standards under the regulatory system."
+
+---
+
+# Examples
+
+* "Some firms raised concerns over what 'white hat hackers' did by night using the knowledge gleaned from their day jobs. To address this, some firms conducted both corporate and personnel due diligence on external consulting staff used when doing penetration tests."
+
+&gt; "Due diligence of vendors is important as one firm found out when the confidential results of a penetration test were sent to the firm in an unencrypted email. Unsurprisingly the firm did not retain the vendor as a preferred supplier."
+
+---
+
+# Examples
+
+* "Incident Management"
+
+&gt; "Firms need to have incident management procedures commensurate with the size of their operations that define the roles and responsibilities for the staff involved and provide the escalation route to senior management."
+
+---
+
+# Examples
+
+* "A firm kept its system administrator and master passwords for all business critical applications and systems in a sealed envelope in a locked fireproof safe. However, the firm also kept the passwords in a Microsoft Word document on a public area of the network that had not been password protected!"
+
+&gt; "Firms need to wherever possible, adopt a single, consistent password policy based on published good Information Security guidelines."
+
+* "People"
+
+&gt; "Where firms recruit staff externally or make use of contractors / temporary staff recruited through agencies they need to ensure that an appropriate level of vetting is carried out, commensurate with the sensitivity of the individual's role."
+
+---
+
+# Examples
+
+* "Two firms showed a lack of commitment to fixing Information Security audit issues that had remained outstanding for two and four years respectively, exposing the firms to significant security risks."
+
+&gt; "Firms need to ensure that their IA (Internal Audit) function has the relevant IT skills to cover adequately the risks posed by their IT control environment. Firms can consider the use of external resources for audit work where in-house expertise is lacking. Firms' involvement of their IT IA function in internal projects may prove beneficial in terms of monitoring progress, identifying risks and ensuring requisite Information Security controls are built into the design."
+
+---
+
+# Examples
+
+* "Management information produced on Information Security incidents"
+
+&gt; "The FSA Systems and Controls Handbook states in 3.2.11G that: Senior management should be provided with the management information it needs to identify, measure and control risks of a regulatory concern such as the use of the firm's systems for the purposes of financial crime."
+---
+
+# Examples
+
+* "Several large firms had commenced Identity Management projects - long term developments that aimed to capture and maintain global employees' details. Systematically, databases were being filled in with key information that would eventually incorporate access rights and user profiles for each application used."
+
+&gt; "Senior management are ultimately responsible for Information Security, but may delegate responsibility to appropriate managers. Senior management need to ensure that clear reporting lines exist and be confident that the responsible person is suitable to carry out the function and is appropriately segregated from other persons and departments."
+
+---
+
+# Examples
+
+* "In outsourcing its user administration, a large firm omitted to specify adequate controls. It subsequently found that the outsourced firm did not reconcile user maintenance records with the actual users."
+
+&gt; "Firms cannot outsource their responsibility for Information Security and therefore should take reasonable care to supervise the outsourced functions carried out by its contractors (SYSC 3.2.4G). They can do this through clearly defined Service Level Agreements that articulate responsibilities for maintaining Information Security."
+
+---
+
+# Examples
+
+* "Some firms recognised that while their in-house expertise was limited, it was essential to maintain the integrity of the firm's perimeter. Therefore, they outsourced the intrusion detection function to a specialist company that provided alerts and reports to the firm according to their defined parameters. This appeared to be a satisfactory solution to the lack of expertise - albeit more costly than in-house developed routines."
+
+&gt; "Firms need to consider the likely threats against them to determine the type of perimeter monitoring they need. However, for firms with an internet presence this is likely to be essential. Real-time alerts should be developed to warn of potential attacks supported by appropriate reporting functionality for senior management."
+
+---
+
+# Examples
+
+* "In a positive development, a firm implemented an online application to automate the management of privileged user accounts and passwords for critical European systems. The system featured storage, release, and encryption of passwords designed to prevent and provide early warning of unauthorised usage."
+
+&gt; "Firms need to determine the sensitivity of the data they hold on their internal systems and ensure that they maintain an appropriate level of monitoring to provide assurance that all systems activities are accounted for and authorised."
+---
+
+# Examples
+
+* "In one firm, user administration tasks were devolved to a business unit. However, control was compromised. The manager delegated this responsibility to a junior clerk who, by virtue of the role, inherited the manager's privileges needed to perform this task."
+
+&gt; "Weak user administration is a common and long-standing failing. Firms need to ensure that only current employees have access to systems and that these employees have the correct account privileges. Unless user account reviews are regularly conducted there is a risk that staff will leave or move and that user accounts will be used for unauthorised activities."
+
+---
+
+# Examples
+
+* "A firm was infected with a virus after a travelling employee used a laptop which he had installed an ISP's software on ...against his employer's rules. As the laptop was only infrequently connected to the firm's network, it did not have the latest anti-virus update. When the employee connected it to the firm's network the virus spread before the latest update could be applied. The virus rapidly replicated, resulting in the firewall being bombarded and ultimately failing. This caused the firm to be exposed because of a single employee's action."
+
+&gt; "Employee action, deliberate or accidental, can potentially result in serious Information Security issues such as virus infections. Staff should be provided with education of the firm's Information Security policies and procedures on joining. And they should receive additional updates on emerging threats to minimise risk."
+
+---
+
+# Examples
+
+* "At one firm, there was no Information Security Officer, so responsibility for Information Security was shared between senior management. This resulted in incomplete policies and procedures and a breakdown in the segregation of duties between development and production environments. It allowed developers access to the production environment where sensitive data was held."
+
+&gt; "Establishing an Information Security framework is critical for a comprehensive robust Information Security function and forms the basis for the effective management of Information Security risks."
+
+---
+
+name: FSA2008
+
+class: inverse, center, middle
+
+# FSA 2008
+
+---
+
+# Financial Crime and Intelligence Division (FCID)
+
+* On 22 January 2007, the Financial Services Authority (FSA) announced that it has established a new Financial Crime and Intelligence Division. The new division was set up on the 1 January 2007.
+
+* The aims of the new division are to tackle the risks posed by the evolution of financial crime by providing leadership, tools and expertise to meet the increased challenges and maintain the integrity in the UK's Financial Sector.
+
+---
+
+# Financial Crime and Intelligence Division (FCID)
+
+* The division will work on:
+
+    + "Examining, with other regulators, the risks facing consumers from increasing information security and hi-tech crime, including the potential for low-tech breaches of security, such as careless disposal of sensitive data;"
+
+    + "Creating an effective means of measuring the real scale of the problems posed by financial crime, with a broad range of economic experts, both inside and outside of the FSA;"
+
+    + "Identifying, assessing and managing criminal threats in the UK's financial sectors, with law enforcement and other regulators."
+
+---
+
+# Data Security in Financial Services
+
+* [Data Security In Financial Services: Firms controls to prevent data loss by their employees and third-party suppliers (April 2008)](http://bit.ly/1bGJRaI)
+
+* Review work of FCID in "Background" section
+
+* 5 fallacies of firms in attitudes to data security and identity fraud
+
+* 4 Failures in risk assessment
+
+* Examples
+
+---
+
+# Five fallacies
+
+&gt; "The management of some firms believed the customer data they held was too limited or too piecemeal to be of value to fraudsters. This is misconceived: skilled fraudsters can supplement a small core of data by accessing several different public sources ...build up enough information to pose as their victim and obtain credit and other advantages in the victim's name."
+
+&gt; "There is a perception that only individuals with a high net worth are attractive targets for identity fraudsters. In fact, people of all ages, in all occupations and in all income groups are vulnerable if their data is lost."
+---
+
+# Five fallacies
+
+&gt; "A third fallacy is that only large firms with millions of customers are likely to be targeted. Even a small firm's customer database might be sold and re-sold for a substantial sum."
+
+&gt; "Firms often assume the threat to data security is external, from burglars or computer hackers, for example. However, insiders have more opportunity to steal customer data and there are many examples of staff stealing customer data either to commit fraud themselves, or to pass it on to organised criminals."
+
+---
+
+# Five fallacies
+
+&gt; "Finally, some firms believe that their firm is (impenetrable) to data breaches, because no customer has ever alerted them to identity fraud. The truth may be closer to the opposite: firms which successfully detect data loss do so because they have effective risk management systems. Firms with weak controls or monitoring are likely to be oblivious to any loss. Furthermore, when fraud does occur, the source of data loss is often impossible to trace."
+
+---
+
+# 4 failures in risk assessment
+
+* Failure to identify all of the data security risks for 3 reasons:
+
+    + Do not appreciate the gravity of the data security risks
+
+    + Do not have the expertise to make a reasonable assessment of the risks and devise ways of mitigating them
+
+    + Fail to devote or coordinate adequate resources to the risk
+
+* Failure to proactively checking how third parties vet third parties' employees or the security arrangements in place to protect customer data, when they use third parties for IT maintenance, as well as the backing up of electronic files and archiving of paper documents.
+
+---
+
+# 4 failures in risk assessment
+
+* "Large and medium-sized firms usually recognise the risks of data loss via laptops, USB devices and the internet. But few firms completely mitigate data security risks by locking down USB ports and CD writers, encrypting laptops and USB devices and blocking web- based communication facilities such as Hotmail and instant messaging. Small firms are very weak in this area, with few of them identifying or mitigating risks."
+
+* Small firms are often wholly reliant on compliance consultants who have done very little work on data security. So the standard of small firms' compliance checking and their overall performance on data security is very weak.
+
+---
+
+# Good and poor practice
+
+&lt;img src="governance.png" height="450pt" /&gt;
+
+
+---
+
+# Good and poor practice
+
+&lt;img src="governanceTraining.png" height="450pt" /&gt;
+
+---
+
+# Good and poor practice
+
+&lt;img src="trainingVetting.png" height="450pt" /&gt;
+
+---
+
+# Good and poor practice
+
+&lt;img src="access.png" height="450pt" /&gt;
+
+---
+
+# Good and poor practice
+
+&lt;img src="accessControl.png" height="450pt" /&gt;
+
+
+---
+
+# Good and poor practice
+
+&lt;img src="controlBackup.png" height="450pt" /&gt;
+
+---
+
+# Good and poor practice
+
+&lt;img src="backupInternet.png" height="450pt" /&gt;
+
+
+---
+
+# Good and poor practice
+
+&lt;img src="internetKey.png" height="450pt" /&gt;
+
+---
+
+# Good and poor practice
+
+&lt;img src="laptopUsb.png" height="450pt" /&gt;
+
+
+---
+
+# Good and poor practice
+
+&lt;img src="usbPhysical.png" height="450pt" /&gt;
+
+
+---
+
+# Good and poor practice
+
+&lt;img src="physicalDisposal.png" height="450pt" /&gt;
+
+
+---
+
+# Good and poor practice
+
+&lt;img src="disposal3rdparty.png" height="450pt" /&gt;
+
+
+---
+
+# Good and poor practice
+
+&lt;img src="3rdpartyAudit.png" height="450pt" /&gt;
+
+---
+
+name: FCA
+
+class: inverse, center, middle
+
+# FCA
+
+---
+
+
+# FCA Business Plan 2016/17
+
+* Financial Conduct Authority
+
+* [FCA Business Plan 2016/2017](http://bit.ly/2cd2bOD)
+
+* 9.6 million log-ins to internet banking a day
+
+&gt; "Legacy systems, cyber-attacks and organisational resilience: A lack of technological resilience among many firms, complexity as systems have evolved over time, the need to balance investment in innovation with maintaining existing systems and infrastructure and a lack of IT expertise at board level are some of the reasons this area continues to present significant challenges. Given the impact on firms, consumers and markets, this failure poses both conduct risks and potentially a systemic risk. ..."
+
+---
+
+# FCA Business Plan 2016/17
+
+&gt; "Legacy systems, ...Weaknesses in systems and a lack of expertise may expose firms to the increasing risk of cyber-attacks, posing risks to consumers and markets, though this is an issue that also applies to new entrants as well as firms with legacy systems. These attacks are inevitable but firms need to ensure that they have defences and plans in place to deal with them. We will focus on identifying the impact of operational resilience risks in the firms likely to cause the most disruption to markets and consumers resulting from an incident, and how firms deal with such risks and impacts."
+
+---
+
+# FCA Business Plan 2016/17
+
+&gt; "Cybercrime: We will continue to work collaboratively with the Treasury, the Bank of England and other authorities to ensure a joined-up and risk-based approach to cyber-crime. This will ensure we direct our resources at areas of greatest need and work directly with the firms and markets with the greatest risks. We will also provide education tools to help all firms deal with the risk of cyber-crime and respond swiftly to cyberattacks."
+
+---
+
+# Approach to cyber security in financial services
+
+* 21 Sept 2016
+
+* [Speech by Director of Specialist Supervision at FCA](http://bit.ly/2jA06xt)
+
+* Approach of FCA
+
+* Expectation of businesses
+
+* Key emerging risk areas
+
+---
+
+# Approach to cyber security in financial services
+
+&gt; "Cyber risk is an ever evolving and asymmetric threat. It impacts each one of our objectives - market integrity, consumer protection and competition - whether through markets being disrupted through loss of availability of platforms, sensitive market or customer data being stolen or compromised, or access to core banking services."
+
+&gt; "We regulate 56,000 financial services firms, from the largest banks, insurers, market infrastructure providers to the smallest advisers. Firms, whatever their size, could pose a significant risk to our objectives if their services were disrupted - even the smallest firm could hold large quantities of sensitive data, which if compromised could have a ripple effect to other areas of the financial sector, and business generally."
+
+---
+
+# Approach to cyber security in financial services
+
+&gt; "Cyber security is a shared interest and responsibility - we will continue to take a co-operative approach to addressing this threat, continuing to work with Government, other regulators, nationally and internationally on this important issue."
+
+&gt; "What we will be looking for is a 'security culture' in firms of all sizes - from the Board down to every employee. Cyber is not just an IT issue, but covers people, processes and technology. The key is: good governance, identification and protection of key assets, detection, response and recovery and information sharing, with the regulator and other parties."
+
+---
+
+# Approach to cyber security in financial services
+
+* Engaging nationally and internationally to ensure a co-ordinated approach to addressing this threat.
+
+    + Working with G7 cyber expert group; GCHQ, Bank of England, Prudential Regulatory Authority, NCSC
+
+* In terms of supervisory attention
+
+&gt; "We are assessing which firms we believe pose the greatest risk to our objectives if their services were disrupted, either through lack of availability or integrity of data or processes. And this does not really depend on the size of a firm - the reality is that even the smallest firm holds large quantities of sensitive data - which if compromised could then have a ripple effect to other areas of the financial sector, and indeed businesses more broadly."
+
+---
+
+# Expectation of businesses
+
+&gt; "'a security culture: driven from the top down' from the Board, to senior management, down to every employee."
+
+&gt; "firms to have good governance around cyber security in their firms - ...senior management engagement, responsibility - and effective challenge at the Board"
+
+&gt; "firms [to identify] their key assets - and that the protections around them are appropriate - you might secure valuables in a safe, and others under lock and key - the same applies here. ...how well trained are your staff to recognise phishing emails? How good is the security screening of your staff? How often do you test your defences"
+
+---
+
+# Expectation of businesses
+
+&gt; "Firms need to have adequate detection capabilities ? How well do you know whether you have been attacked? ...How good is your threat intelligence? ...Others are developing artificial intelligence systems which can scour corporate networks for vulnerabilities and patch them automatically."
+
+&gt; "recovery and response: firms should have systems and controls to ensure they can carry on in the event of an unforeseen interruption, and to be able to recover from interruptions, preserving essential data."
+
+---
+
+# Expectation of businesses
+
+&gt; "report material breaches ...under Principle 11 ...share information with others, on the Cyber Information Sharing Partnership (otherwise known as the CISP platform) ...information sharing ...identifying and tackling patterns of attacks ...to enhance the protection of the industry as a whole."
+
+---
+
+# Key emerging risk areas
+
+* Ransomware. Firms should be alive to the risks of self-propagating malware, and the associated threats it poses. We are no longer looking at isolated infections on end user devices: we have to consider what firms would do to recover systems if self-replicating ransomware, or other malicious software, were to intelligently spread throughout their networks.
+
+* Data storage outsourcing. As more firms move to the cloud, they really do need to be aware that they adopt the cloud provider's threat profile, as well as their own.
+
+* Skills gap in cyber. Some firms are struggling to recruit skilled staff to analyse data, and respond to threats.
+
+
+
+---
+
+name: ICO
+
+class: inverse, center, middle
+
+# ICO
+
+---
+
+# ICO
+
+* [Information Commissioner's Office](http://bit.ly/1G7Yz8F)
+
+* The ICO is the UK's independent body set up to uphold information rights
+
+* The Data Protection Act 1998 requires every data controller (eg organisation, sole trader) who is processing personal information to register with the ICO, unless they are exempted.
+
+* DPA 1998 is enforced by ICO.
+
+* ICO has also specific responsibilities set out in the Freedom of Information Act 2000, Environmental Information Regulations 2004 and Privacy and Electronic Communications Regulations 2003.
+
+---
+
+name: ICO
+
+class: inverse, center, middle
+
+# Data Security Cases
+
+---
+
+# CPS 2015
+
+* [Penalty Notice 2 Nov 2015](http://bit.ly/1MnqeSK)
+
+* ICO has fined the Crown Prosecution Service "200,000 after laptops containing videos of police interviews were stolen from a private film studio. The interviews were with 43 victims and witnesses. They involved 31 investigations, nearly all of which were ongoing and of a violent or sexual nature."
+
+---
+
+# CPS 2015
+
+&gt; "The videos were being edited by a Manchester-based film company so that they could be used in criminal proceedings. But an ICO investigation found the videos were not being kept secure. The film company used a residential flat as a studio. The studio was burgled on 11 September 2014 and two laptops containing the videos were stolen. The laptops, which were left on a desk, were password protected but not encrypted and the studio had no alarm and insufficient security."
+
+---
+
+# CPS 2015
+
+&gt; "The police recovered the laptops eight days later and apprehended the burglar. As far as the Commissioner is aware, the laptops had not been accessed by anyone else. The ICO ruled that the CPS was negligent when it failed to ensure the videos were kept safe and did not take into account the substantial distress that would be caused if the videos were lost."
+
+&gt; "Many of the victims were vulnerable and had already endured distressing interviews with police. In the videos, they talked openly and referred to the names of the offenders."
+
+---
+
+# CPS 2015
+
+&gt; "The CPS reported the incident to the ICO and informed the victims and witnesses involved. The ICO received complaints from three affected people. As part its investigation, the ICO learned that the CPS had been using the same film company since 2002."
+
+&gt; "The CPS delivered unencrypted DVDs to the studios using a national courier firm. If the case was urgent, the sole proprietor would collect the unencrypted DVD from the CPS personally and take it to the studio using public transport."
+
+---
+
+# Isle of Anglesey County Council 2015
+
+* [Enforcement Notice 1 Oct 2015](http://bit.ly/2itKCcC)
+
+&gt; "Anglesey County Council has been ordered to improve its data protection practices after it repeatedly failed to address security and privacy issues. Two separate security incidents as far back as 2011 led to the council signing undertakings to make changes and improve practices. But despite committing to the improvements, audit visits in July 2013 and October 2014 still found problems with the security of personal data."
+
+---
+
+# Ashley Madison 2015
+
+* [Ashley Madison hack](http://bit.ly/1WGKNBj): Who are Impact Team, why did they leak website data and will they be caught?
+
+&gt; "On 19 July 2015, Avid Life Media (ALM), the parent company of Ashley Madison, Cougar Life and Established Men, confirmed its customer database had been breached with a sample of the database posted online. The hackers also posted a manifesto that warned if ALM did not take Ashley Madison and Established Men offline, they would publish all the customer data."
+
+---
+
+# Ashley Madison 2015
+
+* "One month later and the hackers kept their word, posting a link on the dark web to a torrent of the stolen information, which contains some 36 million accounts including names, height, weight, gender, addresses, email address, GPS co-ordinates, credit card transaction details, limited credit card numbers and sexual preferences."
+---
+
+# Ashley Madison 2015
+
+&gt; "According to the manifesto, which was published in July, the reason the company was targeted was because the company's Full Delete service, which promises to erase all customer data from Ashley Madison's database for a fee of 19 (12), was a lie: "Full Delete netted ALM $1.7m in revenue in 2014. It's also a complete lie. Users almost always pay with credit card; their purchase details are not removed as promised, and include real name and address, which is of course the most important information the users want removed.""
+
+---
+
+# Ashley Madison 2015
+
+&gt; "With ALM working around the clock in conjunction with multiple law enforcement agencies including the FBI, one of the most surprising aspects of this attack is the fact the hackers have not been caught in the month since they publicised the breach. There are several reasons for this, but the main one is that the hacker's operational security (OpSec) has been excellent (so far)."
+
+* [ICO comments on jurisdiction](http://bit.ly/2jb9WpK) in light of the Ashley Madison data leak
+
+---
+
+# Ashley Madison 2015
+
+&gt; "An interesting consideration that has arisen out of this data leak is the question of applicable data protection law. Ashley Madison is a Canadian company but its membership operations are stated to be governed by Cypriot law."
+
+&gt; "Whilst the Canadian data protection authority is leading the investigation, data protection authorities across the EU will be looking into this too. The applicable data protection law under the Directive is that where the data controller is established (and where the data controller is established in a number of jurisdictions, it will have obligations under a number of different regimes) or, if not located within the EU, the country in which equipment is used in the EU."
+
+---
+
+# Ashley Madison 2015
+
+* Message released by the Impact Team:
+
+* "We are the Impact Team. We are releasing the Ashley Madison data ..."
+
+    + dark web message replicated at [here](http://bit.ly/1PznVyG)
+
+---
+
+# Nationwide Building Society 2007
+
+* [Final Notice 14 February 2007](http://bit.ly/2jISTKN)
+
+* FSA imposes a financial penalty on Nationwide in the amount of 980,000.
+
+&gt; "failing to have effective systems and controls to manage its information security risks. The failings came to light following the theft of a laptop from a Nationwide employee's home last year."
+
+&gt; "During its investigation, the FSA found that the building society did not have adequate information security procedures and controls in place, potentially exposing its customers to an increased risk of financial crime. The FSA also discovered that Nationwide was not aware that the laptop contained confidential customer information and did not start an investigation until three weeks after the theft."
+
+---
+
+# Talk Talk 2016
+
+* [Monetary Penalty Notice](http://bit.ly/2dEtl22) 30 September 2016
+
+* Telecoms company TalkTalk has been issued with a record £400,000 fine by the ICO for security failings that allowed a cyber attacker to access customer data "with ease".
+
+* [ICO news of Talk Talk](http://bit.ly/2dJZeCm)
+
+---
+
+# Talk Talk 2016
+
+&gt; "The ICO's found that an attack on the company last October could have been prevented if TalkTalk had taken basic steps to protect customers' information. ...The cyber attack between 15 and 21 October 2015 took advantage of technical weaknesses in TalkTalk's systems. The attacker accessed the personal data of 156,959 customers including their names, addresses, dates of birth, phone numbers and email addresses. In 15,656 cases, the attacker also had access to bank account details and sort codes."
+
+---
+
+# Talk Talk 2016
+
+&gt; "TalkTalk was not aware that the installed version of the database software was outdated and no longer supported by the provider. The company said it did not know at the time that the software was affected by a bug - for which a fix was available. The bug allowed the attacker to bypass access restrictions. Had it been fixed, this would not have been possible."
+
+---
+
+# Talk Talk 2016
+
+&gt; "The attacker used a common technique known as SQL injection to access the data. SQL injection is well understood, defences exist and TalkTalk ought to have known it posed a risk to its data, the ICO investigation found. On top of that the company also had two early warnings that it was unaware of. The first was a successful SQL injection attack on 17 July 2015 that exploited the same vulnerability in the webpages. A second attack was launched between 2 and 3 September 2015."
+
+---
+
+# Talk Talk 2016
+
+* [15 Nov 2016](http://bit.ly/2faZA92)
+
+&gt; "A 17-year-old boy has admitted to seven charges of hacking, two of which relate to the TalkTalk data breach in October 2015. The teenager, who cannot be named for legal reasons, pleaded guilty to all seven offences under the Computer Misuse Act at Norwich Youth Court today."
+
+---
+
+# Talk Talk 2016
+
+* [13 December 2016](http://bit.ly/2iWDkz3)
+
+&gt; "A teenage computer hacker who shared information online about weaknesses in the website of communications giant Talk Talk has been given a rehabilitation order today. The 17-year-old used software illegally to hack the website and then posted information about the vulnerability on a website accessible to others. In addition to Talk Talk, the websites of Cambridge and Manchester universities were also targeted by the youth, who admitted seven offences under the Computer Misuse Act. He was sentenced to a 12-month youth rehabilitation order at Norwich Youth Court."
+
+---
+
+# Sony 2013
+
+* [Sony Gets Fined $395,000 For Playstation Hack Attack](http://read.bi/2DsAgcm)
+
+* On 24 Jan 2013, ICO fined Sony Computer Entertainment £250,000 after the personal details of millions of gamers - including passwords and credit card numbers - were stolen in April 2011.
+
+&gt; "There's no disguising that this is a business that should have known better. It is a company that trades on its technical expertise, and there's no doubt in my mind that they had access to both the technical knowledge and the resources to keep this information safe," said David Smith, the ICO's deputy commissioner and director of data protection.
+
+---
+
+# Sony 2013
+
+&gt; "The watchdog said millions of customers were exposed to the risk of identity theft after their names, addresses, email addresses, dates of birth and account passwords were leaked online."
+
+&gt; "The ICO launched an investigation into the leak immediately after the hack in April 2011. It concluded on Thursday that the attack could have been prevented if Sony's software had been up to date, and separately found that passwords were not handled securely by the games giant."
+
+---
+
+# A Historical Society 2016
+
+* [Monetary Penalty Notice](http://bit.ly/2f2MN5Q) 7 Nov 2016
+
+* ICO fined a historical society for 500
+
+&gt; "The ICO has fined a historical society after a laptop containing sensitive personal data was stolen whilst a member of staff was working away from the office. The laptop, which wasn't encrypted, contained the details of people who had donated artefacts to the society. An ICO investigation found the organisation had no policies or procedures around homeworking, encryption and mobile devices which resulted in a breach of data protection law."
+
+---
+
+# Royal &amp; Sun Alliance Insurance Plc 2017
+
+* [Monetary Penalty Notice](http://bit.ly/2jmUVR6) 5 Jan 2017
+
+* The ICO has fined Royal &amp; Sun Alliance Insurance Plc (RSA) 150,000 following the loss of the personal information of nearly 60,000 customers.
+
+&gt; "At some point between 18 May and 30 July 2015, a portable 'Network Attached Storage' device was taken offline and stolen by a member of staff or contractor who was permitted (unaccompanied) to access the data server room ...The device held personal data sets containing 59,592 customer names, addresses, bank account and sort code numbers and 20,000 customer names, addresses and credit card 'Primary Account Numbers'. ...The device was password protected but unencrypted. It has not been recovered to date."
+
+---
+
+# SFO 2015
+
+* [Monetary Penalty Notice](http://bit.ly/2jjrkuv) 26 March 2015
+
+* The Information Commissioner's Office (ICO) has fined the Serious Fraud Office 180,000 after a witness in a serious fraud, bribery and corruption investigation was mistakenly sent evidence relating to 64 other people involved in the case.
+
+---
+
+# eBay scammer 2010
+
+* "The leader of a UK-based gang who made millions selling counterfeit luxury golf kit and other knock-off goods through auction site eBay has been jailed for four years."
+
+* [news here](http://bit.ly/2irguys) 4 Mar 2010
+
+&gt; "Gary Bellchambers and six others ran what is reckoned to be the biggest ever such scam between June 2003 and March 2008."
+
+&gt; "The Havering Council team worked with eBay to identify 96,000 bogus transactions including golf clubs, clothing and forged Qantas business class lounge pass cards. The crooks supplied cheap knock-off imitations in place of the promised premium quality kit from US manufacturer Callaway Golf."
+
+---
+
+# eBay scammer 2010
+
+&gt; "Ringleader Bellchambers was jailed for four years and three months, with a recommendation to spend at least half that time behind bars. Thomas, the scam's second in command, was sentenced to 16 months in jail, with an order to serve half in custody."
+
+&gt; "The case which secured today's convictions was supported by eBay's Fraud Investigation Team and reinforces eBay's ongoing commitment to fighting counterfeits."
+
+&gt; "eBay's Fraud Investigation Team worked with Havering Trading Standards for over three years to make sure Bellchambers and his accomplices were brought to justice. Investigators supplied information from suspect eBay and PayPal accounts to their Trading Standards counterparts as well as testifying in court."
+
+---
+
+# Identity Theft 2016
+
+* On 5 July 2016, Cifas released new figures showing a 52% rise in young identity fraud victims in the UK. In 2015, just under 24,000 (23,959) people aged 30 and under were victims of identity fraud. This is up from 15,766 in 2014, and is more than double the 11,000 victims in this age bracket in 2010.
+
+* [News here](http://bit.ly/29gt4w)
+
+* [Cifas website](http://bit.ly/2juRiss)
+
+---
+
+# Identity Theft 2016
+
+&gt; "Following a rapid rise in fraud losses in the 1980s, mostly affecting retail lenders, a number of lenders met in 1987 to consider their position. At the same time, the police suggested that fraud prevention should be a non-competitive issue and that organisations would need to co-operate and communicate to reduce fraud successfully. After a series of meetings, the retailers came up with the unique concept of Cifas: the first data sharing scheme of its kind in the world. Cifas became operational in late 1988."
+
+---
+
+# Identity Theft 2016
+
+&gt; "Cifas is a not-for-profit company working to protect businesses, charities, public bodies and individuals from financial crime. In 1991, Cifas became an independent company limited by guarantee."
+
+---
+
+# Norwich Union Life &amp; Others 2007
+
+* [Final Notice](http://bit.ly/2jcYERA) 17 Dec 2007
+
+&gt; "The Financial Services Authority (FSA) has fined Norwich Union Life 1.26 million for not having effective systems and controls in place to protect customers' confidential information and manage its financial crime risks. These failings resulted in a number of actual and attempted frauds against Norwich Union Life's customers."
+
+---
+
+# Norwich Union Life &amp; Others 2007
+
+&gt; "The weaknesses in Norwich Union Life's systems and controls allowed fraudsters to use publicly available information including names and dates of birth to impersonate customers and obtain sensitive customer details from its call centres. They were also, in some cases able to ask for confidential customer records such as addresses and bank account details to be altered. The fraudsters then used the information to request the surrender of 74 customers' policies totalling 3.3 million in 2006."
+
+---
+
+# Norwich Union Life &amp; Others 2007
+
+&gt; "During its investigation, the FSA found that Norwich Union Life had failed to properly assess the risks posed to its business by financial crime, including fraudsters seeking to obtain customers' confidential information. As a result, its customers were more likely to fall victim to financial crimes such as identity theft."
+
+---
+
+# HSBC firms 2009
+
+* [News here](http://bit.ly/2n0au4H)
+
+&gt; "The Financial Services Authority (FSA) has fined three HSBC firms over 3 million for not having adequate systems and controls in place to protect their customers' confidential details from being lost or stolen. These failings contributed to customer data being lost in the post on two occasions."
+
+&gt; "HSBC Life UK Limited (HSBC Life) was fined 1,610,000, HSBC Actuaries and Consultants Limited (HSBC Actuaries) was fined 875,000 and HSBC Insurance Brokers Limited (HSBC Insurance Brokers) was fined 700,000."
+
+---
+
+# HSBC firms 2009
+
+&gt; "During its investigation into the firms' data security systems and controls, the FSA found that large amounts of unencrypted customer details had been sent via post or courier to third parties. Confidential information about customers was also left on open shelves or in unlocked cabinets and could have been lost or stolen. In addition, staff were not given sufficient training on how to identify and manage risks like identity theft."
+
+---
+
+# HSBC firms 2009
+
+&gt; "Despite increasing awareness of the need to protect people's confidential details, all three firms failed to put in place adequate procedures to manage their financial crime risks. In April 2007, HSBC Actuaries lost an unencrypted floppy disk in the post, containing the personal information of 1,917 pension scheme members, including addresses, dates of birth and national insurance numbers. In July 2007, all three firms were warned by HSBC Group Insurance's compliance team about the need for robust data security controls. However, in February 2008 HSBC Life lost an unencrypted CD containing the details of 180,000 policy holders in the post. The confidential information on both disks could have helped criminals to steal customers' identities and commit financial crime."
+
+---
+
+# HSBC firms 2009
+
+* [Final Notice](http://bit.ly/2iyp5To) 17 July 2009: HSBC Life (UK) Limited
+
+* [Final Notice](http://bit.ly/2jxgleG) 17 July 2009: HSBC Insurance Brokers Limited
+
+* [Final Notice](http://bit.ly/2jm1l5u) 17 July 2009: HSBC Actuaries and Consultants Limited
+
+---
+
+# Zurich Insurance Plc 2010
+
+* [Final Notice](http://bit.ly/2jmbj7a) 19 Aug 2010
+
+&gt; "The Financial Services Authority (FSA) has fined the UK branch of Zurich Insurance Plc (Zurich UK) 2,275,000 for failing to have adequate systems and controls in place to prevent the loss of customers' confidential information. The fine is the highest levied to date on a single firm for data security failings."
+
+&gt; "The failings came to light following the loss of 46,000 customers' personal details, including identity details, and in some cases bank account and credit card information, details about insured assets and security arrangements. The loss could have led to serious financial detriment for customers and even exposed them to the risk of burglary."
+
+---
+
+# Zurich Insurance Plc 2010
+
+&gt; "Zurich UK outsourced the processing of some of its general insurance customer data to Zurich Insurance Company South Africa Limited (Zurich SA). In August 2008, Zurich SA lost an unencrypted back-up tape during a routine transfer to a data storage centre. As there were no proper reporting lines in place Zurich UK did not learn of the incident until a year later. Zurich UK failed to take reasonable care to ensure it had effective systems and controls to manage the risks relating to the security of customer data resulting from the outsourcing arrangement. The firm also failed to ensure that it had effective systems and controls to prevent the lost data being used for financial crime."
+
+---
+
+name: Cybercases
+
+class: inverse, center, middle
+
+# Cybercrime cases
+
+---
+
+# iTunes gift voucher scam 2010
+
+* [Five men used stolen credit card numbers](http://bbc.in/2jSkzAY) to buy 750,000 worth of vouchers to sell at cheaper prices through eBay.
+
+* They were sentenced on 14 May 2010. Suhail Tufail, 26, who admitted fraud charges and was jailed for five years at Manchester Crown Court.
+
+&gt; "In May 2007, Humberside Ports police stopped three men - including Mohammed Arfan Rasool and Imran Aslam - as part of a routine search when they arrived from Amsterdam." "It led them to orchestrator Suhail Tufai"
+
+---
+
+# iTunes gift voucher scam 2010
+
+&gt; "A 'suspicious' laptop belonging to Rasool was seized and examined by Greater Manchester Police's economic crime unit. When officers examined the hard drive, along with two other computers found at his home, they found the details of more than 7,000 bank cards. The same details were found on computers seized from Tufail."
+
+&gt; "They later discovered that many of the details had been used to fraudulently purchase iTunes gift certificates. It emerged that Tufail developed the idea of buying the vouchers and then selling them at a reduced price to launder cash from the cards."
+
+---
+
+name: UK-strategy
+
+class: inverse, center, middle
+
+# UK Strategy 2016/21
+
+---
+
+# HM Government National Cyber Security Strategy 2016 - 2021
+
+* [National Cyber Security Strategy 2016 - 2021](http://bit.ly/2gdBbhS)
+
+* "We will invest a total of 1.9 billion over the next five years to transform significantly the UK's cyber security."
+
+* Cybercrime
+
+* Source of threats
+
+* Three case studies
+
+* Vulnerabilities
+
+* Vision
+
+* Roles and responsibilities of businesses
+
+* Changing behaviours of businesses
+
+* Cyber Essential scheme
+
+* Other topics
+
+---
+
+# Cybercrime
+
+*Cyber-dependent crimes
+
+&gt; "crimes that can be committed only through the use of Information and Communications Technology (ICT) devices, where
+the devices are both the tool for committing the crime, and the target of the crime (e.g. developing and propagating malware for financial gain, hacking to steal, damage, distort or destroy data and/or network or activity)"
+
+* cyber-enabled crimes
+
+&gt; "traditional crimes which can be increased in scale or reach by the use of computers, computer networks or other forms of ICT (such as cyber-enabled fraud and data theft)"
+
+---
+
+# Source of threats
+
+* Cyber criminals
+
+&gt; financially motivated organised criminal groups
+
+* States and state-sponsored threats
+
+&gt; "attempts by states and state-sponsored groups to penetrate UK networks for political, diplomatic, technological, commercial and strategic advantage, with a principal focus on the government, defence, finance, energy and telecommunications sectors"
+
+* Terrorists
+
+&gt; "Terrorists using the Internet for their purposes does not equal cyber-terrorism. However, by increasingly engaging in cyber-space, and given the availability of cyber-crime as a service, one can assume that they would be in the position to launch cyber attacks"
+
+---
+
+# Source of threats
+
+* Hacktivists
+
+&gt; "Hacktivist groups are decentralised and issue-orientated. They form and select their targets in response to perceived grievances, introducing a vigilante quality to many of their acts."
+
+* Script Kiddies
+
+&gt; "So-called 'script kiddies - generally less skilled individuals who use scripts or programmes developed by others to conduct cyber attacks - are not assessed as posing a substantive threat to the wider economy or society. ...the actions of 'script kiddies' can, in some cases, have a disproportionately damaging impact on an affected organisation. ''
+
+---
+
+# Case study
+
+* TalkTalk Compromise
+
+&gt; "On 21 October 2015, UK telecommunications provider TalkTalk reported a successful cyber attack and a possible breach of customer data. Subsequent investigation determined that a database containing customer details had been accessed via public- facing internet servers, with the records of approximately 157,000 customers at risk, including names, addresses and bank account details. On the same day, several TalkTalk employees received an email with a ransom demand for payment in Bitcoins. The attackers detailed the structure of the database as apparent proof that it had been accessed."
+
+---
+
+# Case study
+
+* Attack on Bangladesh Bank's SWIFT System
+
+&gt; "The Society for Worldwide Interbank Financial Telecommunication (SWIFT) provides a network that enables financial institutions worldwide to send and receive information about financial transactions in a secure way. As SWIFT sends payment orders which must be settled by correspondent accounts that the institutions have with each other, there has long been concern over any potential for this process to be compromised by cyber criminals or other malicious actors, seeking to inject illegitimate payment orders into the system or, in a worst case scenario, seeking to disable or disrupt the functionality of the SWIFT network itself."
+
+---
+
+# Case study
+
+* Attack on Bangladesh Bank's SWIFT System
+
+&gt; "In early February 2016, an attacker accessed the SWIFT payment system of the Bangladesh Bank and instructed the New York Federal Reserve bank to transfer money from Bangladesh Bank's account to accounts in the Philippines. The attempted fraud was US$951 million. 30 transactions, worth US$850 million, were prevented by the banking system; however, five transactions worth US$101 million went through. US$20 million, traced to Sri Lanka, has since been recovered. The remaining US$81 million transferred to the Philippines was laundered through casinos and some of the funds were then forwarded to Hong Kong."
+
+---
+
+# Case study
+
+* Attack on Bangladesh Bank's SWIFT System
+
+&gt; "The forensic investigation launched by Bangladesh Bank discovered that malware had been installed on the bank's systems and had been used to gather intelligence on the procedures used by the bank for international payments and fund transfers. Further analysis by BAE Systems of the malware linked to the attack uncovered sophisticated functionality for interacting with the local SWIFT Alliance Access software running in the Bangladesh Bank infrastructure."
+
+---
+
+# Case study
+
+* Ukraine Power Grid Attack
+
+&gt; "A cyber attack on western Ukrainian electricity distribution companies Prykarpattya Oblenergo and Kyiv Oblenergo on 23 December 2015 caused a major power outage, with disruption to over 50 substations on the distribution networks. The region reportedly experienced a blackout for several hours and many other customers and areas sustained lesser disruptions to their power supplies, affecting more than 220,000 consumers."
+
+---
+
+# Case study
+
+* Ukraine Power Grid Attack
+
+&gt; "Use of the BlackEnergy3 malware has been blamed by some for the attack, after samples were identi ed on the network. At least six months before the attack, attackers had sent phishing emails to the offices of power utility companies in the Ukraine containing malicious Microsoft Office documents. However, the malware was not likely to have been responsible for opening the circuit breakers which resulted in the outage. It is probable that the malware enabled the attackers to gather credentials that allowed them to gain direct remote control of aspects of the network, which would subsequently enable them to trigger the outage."
+
+---
+
+# Vulnerabilities
+
+* Expanding range of devices
+
+&gt; "The 'Internet of Things' creates new opportunities for exploitation and increases the potential impact of attacks which have the potential to cause physical damage, injury to persons and, in a worst case scenario, death."
+
+&gt; "The rapid implementation of connectivity in industrial control processes in critical systems, across a wide range of industries such as energy, mining, agriculture and aviation, has created the Industrial Internet of Things. This is simultaneously opening up the possibility of devices and processes, which were never vulnerable to such interference in the past, being hacked and tampered with, with potentially disastrous consequences."
+
+---
+
+# Vulnerabilities
+
+* Poor cyber hygiene and compliance
+
+&gt; "In most cases, it continues to be the vulnerability of the victim, rather than the ingenuity of the attacker, that is the deciding factor in the success of a cyber attack. Businesses and organisations decide on where and how to invest in cyber security based on a cost-benefit assessment, but they are ultimately liable for the security of their data and systems"
+
+* Insufficient training and skills
+
+&gt; "In businesses, many staff members are not cyber security aware and do not understand their responsibilities in this regard, partially due to a lack of formal training. ...We also need to develop the specialist skills and capabilities that will allow us to keep pace with rapidly evolving technology and manage the associated cyber risks. This skills gap represents a national vulnerability that must be resolved."
+
+---
+
+# Vulnerabilities
+
+* Legacy &amp; unpatched systems
+
+&gt; "Many organisations in the UK will continue to use vulnerable legacy systems until their next IT upgrade. Software on these systems will often rely on older, unpatched versions. These older versions often suffer from vulnerabilities that attackers look for and have the tools to exploit. An additional issue is the use by some organisations of unsupported software, for which patching regimes do not exist."
+
+* Availability of hacking resources
+
+&gt; "The ready availability of hacking information and user-friendly hacking tools on the Internet is enabling those who want to develop a hacking capability to do so."
+
+---
+
+# Vision
+
+* Defend
+
+&gt; "We have the means to defend the UK against evolving cyber
+threats, to respond effectively to incidents, and to ensure UK networks,
+data and systems are protected and resilient. Citizens, businesses and
+the public sector have the knowledge and ability to defend themselves."
+
+---
+
+# Vision
+
+* Deter
+
+&gt; "UK will be a hard target for all forms of aggression in
+cyberspace. We detect, understand, investigate and disrupt hostile
+action taken against us, pursuing and prosecuting offenders. We have the
+means to take offensive action in cyberspace, should we choose to do
+so."
+
+* Develop
+
+&gt; "We have an innovative, growing cyber security industry,
+underpinned by world-leading scientific research and development. We
+have a self-sustaining pipeline of talent providing the skills to meet
+our national needs across the public and private sectors. Our
+cutting-edge analysis and expertise will enable the UK to meet and
+overcome future threats and challenges."
+
+---
+
+# Roles and responsibilities
+
+* Businesses and organisations
+
+&gt; "Businesses, public and private sector organisations and other institutions hold personal data, provide services, and operate systems in the digital domain. ...But with this technological transformation comes the responsibility to safeguard the assets which they hold, maintain the services they provide, and incorporate the appropriate level of security into the products they sell. The citizen and consumer, and society at large, look to businesses and organisations to take all reasonable steps to protect their personal data, and build resilience - the ability to withstand and recover - into the systems and structures on which they depend. Businesses and organisations must also understand that, if they are the victim of a cyber attack, they are liable for the consequences."
+
+---
+
+# Changing business behaviours
+
+&gt; "While there are many organisations that are doing an excellent job - in places, world-leading - of protecting themselves, and in providing services to others online, the majority of businesses and individuals are still not properly managing cyber risk."
+
+---
+
+# Changing business behaviours
+
+&gt; "For businesses, we will work through organisations such as insurers, regulators and investors which can exert influence over companies to ensure they manage cyber risk. In doing so, we will highlight the clear business benefits and the pricing of cyber risk by market influencers. We will seek to understand better why many organisations still fail to protect themselves adequately and then work in partnership with organisations such as professional standards bodies, to move beyond raising awareness to persuade companies to take action. We will also make sure we have the right regulatory framework in place to manage those cyber risks the market fails to address. As part of this, we will seek to use levers, such as the GDPR (General Data Protection Regulation), to drive up standards of cyber security and protect citizens."
+
+---
+
+# Cyber Essentials scheme
+
+&gt; "The Cyber Essentials scheme was developed to show organisations how to protect themselves against low-level commodity threat. It lists five technical controls (access control; boundary firewalls and Internet gateways; malware protection; patch management and secure configuration) that organisations should have in place. The vast majority of cyber attacks use relatively simple methods which exploit basic vulnerabilities in software and computer systems. There are tools and techniques openly available on the Internet which enable even low-skill actors to exploit these vulnerabilities. Properly implementing the Cyber Essentials scheme will protect against the vast majority of common internet threats."
+
+---
+
+# Cyber Essentials scheme
+
+&gt; "The full scheme, launched on 5 June 2014, enables organisations to gain 1 of 2 new Cyber Essentials badges. ...From 1 October 2014, government requires all suppliers bidding for certain sensitive and personal information handling contracts to be certified against the Cyber Essentials scheme."
+
+* See "[Cyber Essentials Scheme: Requirements for Basic Technical Protection from Cyber Attacks](http://bit.ly/1BLs10g)"
+
+---
+
+name: ncsc
+
+class: inverse, center, middle
+
+# NCSC
+
+---
+
+# National Cyber Security Centre
+
+* [website](http://bit.ly/2gro2jT)
+
+&gt; "The National Cyber Security Centre (NCSC) launched on 1 October 2016. The NCSC provides a unique opportunity to build effective cyber security partnerships between government, industry and the public to ensure that the UK is safer online. It will provide cyber incident response and be the UK's authoritative voice on cyber security. For the first time, key sectors will be able to engage directly with NCSC staff to get the best possible advice and support on securing networks and systems from cyber threats."
+
+
+---
+
+# National Cyber Security Centre
+
+&gt; "The NCSC will provide general advice and guidance. The NCSC will be the lead cyber security technical authority in the UK, with overall responsibility for the technical content of all cyber security advice issued by HMG (Her Majesty's Government). The NCSC will work closely with Home Office, Law Enforcement, DCMS (Department for Culture Media &amp; Sport) and other partners to ensure these messages are deployed as effectively as possible."
+
+---
+
+# National Cyber Security Centre
+
+&gt; "For organisations that have their own networks, the NCSC will run the Cyber Security Information Sharing Partnership (CiSP). This will enable organisations to share information with each other and the NCSC about what they are seeing on their networks, and provide a forum for discussion from beginner through to expert level."
+
+&gt; "NCSC produce tailored advice and guidance to identified sectors, and proactively work with companies on this. At launch, we propose that the NCSC focuses on sectors which form the Critical National Infrastructure of the UK, alongside those of strategic or significant economic importance, or the delivery of key public services."
+
+---
+
+# National Cyber Security Centre
+
+&gt; "The NCSC will also provide bespoke support to a small number of the most critical organisations in the UK, whose effective functioning is part of the UK's wider national security and resilience."
+
+* [NCSC Guidance](http://bit.ly/2jU7DKR)
+
+* [GCHQ certified degrees](http://bit.ly/2jU7NBM) (23 May 2016)
+
+* [Certification of industry expertise, products and services](http://bit.ly/2jmgpR7)
+
+---
+
+# Protecting your organisation from ransomware
+
+&gt; "There are two types of ransomware; the first type encrypts the files on a computer or network. The second type locks a user's screen. Both types require users to make a payment (the 'ransom') to be able to use the computer normally again. The ransom is often demanded in a cryptocurrency such as Bitcoin."
+
+&gt; "In many cases, the ransom amount is quite modest. This is designed to make paying the ransom the quickest and cheapest way to return to normal use. However, there is no guarantee that the key or password (to 'unlock' the computer) will be provided upon payment of the ransom."
+
+---
+
+# Protecting your organisation from ransomware
+
+&gt; "Computers are infected with ransomware via a number of routes. Sometimes users are tricked into running legitimate-looking programs, which contain the ransomware. These may arrive via authentic-looking email attachments or links to apparently genuine websites (otherwise known as phishing). More recently, we have seen ransomware infections which rely on unpatched vulnerabilities in computers, and simply visiting a malicious website can be enough to cause a problem. Although less common, data transfers between computers (such as via USB memory sticks) can also cause ransomware to spread."
+
+---
+
+# Protecting your organisation from ransomware
+
+* Preventing ransomware using good enterprise security
+
+    + Vulnerability management and patching
+
+    + Controlling code execution, e.g. by preventing all marcos from executing
+
+    + Filter web browsing traffic
+
+    + Control removable media access
+
+* Limiting impact of a ransonware attack
+
+    + good access control, such as compartmentalisation of user privileges
+
+    + limit access to your data and file systems to those with a business need to use them
+
+    + backup of your data
+
+---
+
+# 10 Steps to Cyber Security
+
+* [Guidance](http://bit.ly/2iMo5M0)
+
+* Risk Management regime
+
+    + Establish a governance framework
+
+    + Determine what risks an organisation is willing to tolerate and what is unacceptable
+
+    + Maintain board (of directors) engagement
+
+    + Produce supporting policies
+
+    + Adopt a lifecycle approach to risk management
+
+    + Apply recognised standards
+
+    + Make use of endorsed assurance schemes
+
+    + Educate users and maintain awareness
+
+    + Promote a risk management culture
+
+---
+
+# 10 Steps to Cyber Security
+
+* Secure Configuration
+
+    + Use supported software
+
+    + Develop and implement policies to update and patch systems
+
+    + Create and maintain hardware and software inventories
+
+    + Manage your operating systems and software
+
+    + Conduct regular vulnerability scans
+
+    + Establish configuration control and management
+
+    + Disable unnecessary peripheral devices and removable media access
+
+    + Implement white-listing and execution control
+
+    + Limit user ability to change configuration
+
+    + Limit privileged user functionality
+
+---
+
+# 10 Steps to Cyber Security
+
+* Network Security
+
+    + use firewalls
+
+    + prevent malicious content
+
+    + segregate networks as sets
+
+    + secure wireless access
+
+    + enable secure administration
+
+    + configure the exception handling processes
+
+    + monitor the network
+
+    + assurance processes
+
+---
+
+# 10 Steps to Cyber Security
+
+* Managing User Privilege
+
+    + establish effective account management processes
+
+    + establish policies and standards for user authentication and access control
+
+    + limit user privileges
+
+    + limit the number and use of privileged accounts
+
+    + monitor
+
+    + limit access to the audit system and the system activity logs
+
+    + educate users and maintain their awareness
+
+---
+
+# 10 Steps to Cyber Security
+
+* User Education and Awareness
+
+    + produce a user security policy
+
+    + establish a staff induction process
+
+    + maintain user awareness of the security risks faced by the organisation
+
+    + support the formal assessment of security skills
+
+    + monitor the effectiveness of security training
+
+    + promote an incident reporting culture
+
+    + establish a formal disciplinary process
+
+---
+
+# 10 Steps to Cyber Security
+
+* Incident Management
+
+    + establish an incident response capability
+
+    + provide specialist training
+
+    + define the required roles and responsibilities
+
+    + establish a data recovery capability
+
+    + test the incident management plans
+
+    + decide what information will be shared and with whom
+
+    + collect and analyse post-incident evidence
+
+    + conduct a lessons learned review
+
+    + user wareness
+
+    + report incidents to law enforcement
+
+---
+
+# 10 Steps to Cyber Security
+
+* Malware Prevention
+
+    + develop and implement anti-malware policies
+
+    + manage all data import and export
+
+    + blacklist malicious web sites
+
+    + provide dedicated media scanning machines
+
+    + establish malware defences
+
+    + user education and awareness
+
+---
+
+# 10 Steps to Cyber Security
+
+* Monitoring
+
+    + establish a monitoring strategy and supporting policies
+
+    + monitor all system
+
+    + monitor network traffic
+
+    + monitor user activity
+
+    + fine-tune monitoring systems
+
+    + establish a centralised collection and analysis capability
+
+    + provide resilient and synchronised timing
+
+    + align the incident management policices
+
+    + conduct a lesson learned review
+
+---
+
+# 10 Steps to Cyber Security
+
+* Removable Media Controls
+
+    + produce corporate policies
+
+    + limit the use of removable media
+
+    + scan all media for malware
+
+    + formally issue media to users
+
+    + encrypt information held on media
+
+    + actively manage the reuse and disposal of removable media
+
+    + educate users and maintain awareness
+
+---
+
+# 10 Steps to Cyber Security
+
+* Home and Mobile Working
+
+    + assess the risks and create a mobile working policy
+
+    + educate users and maintain awareness
+
+    + apply the secure baseline build
+
+    + protect data in transit
+
+    + review the corporate incident management plans
+
+---
+
+# Whaling - targeted phishing attacks aimed at senior executives
+
+* CEO phishing scam
+
+&gt; "Whaling is a highly targeted phishing attack - aimed at senior executives - masquerading as a legitimate email. Whaling is digitally enabled fraud through social engineering, designed to encourage victims to perform a secondary action, such as initiating a wire transfer of funds."
+
+&gt; "Whaling emails are more sophisticated than generic phishing emails as they often target chief executives and usually:"
+
+---
+
+# Whaling - targeted phishing attacks aimed at senior executives
+
+&gt; "Whaling emails are a form of social engineering which aim to encourage their victim to take a secondary action such as:"
+
+&gt; "clicking on a link to a site which delivers malware"
+
+&gt; "requesting a transfer of funds to the attacker's bank account"
+
+&gt; "requests for additional details about the business or individual in order to conduct further attacks"
+
+* What your organisation can do:
+
+    + "Simply making your employees aware of social engineering threats make them invulnerable; some attacks are too well crafted and no amount of user awareness and training can guarantee their detection. ...As such, organisations should accept that a successful whaling attack is a possibility, and put in place checks and processes to mitigate the damage."
+
+* [Whaling examples](http://bit.ly/2jNoqLs)
+
+---
+
+
+name: summ
+
+class: inverse, center, middle
+
+# Summary
+
+---
+
+# Summary
+
+* Information security: OECD
+
+* FSA Countering Financial Crime Risks in Information Security 2004
+
+* FSA Financial Crime and Intelligence Division
+
+* FCA Business Plan 2016/17
+
+* Information Commissioner's Office
+
+* Data Security Cases
+
+* Cybercrime cases
+
+* HM Government National Cyber Security Strategy 2016 - 2021
+
+* National Cyber Security Centre
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {window.dispatchEvent(new Event('resize'));});
+(function() {var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler"); if (!r) return; s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }"; d.head.appendChild(s);})();</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
